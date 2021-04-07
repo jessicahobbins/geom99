@@ -5,11 +5,10 @@
     overflow: hidden;
 }
 
-/* Title container */
+/* Header */
 .header {
-  background-image: url("images\cover.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  top: 0px;
+  bottom: 0px;
 }
 
 /*Navigation bar*/
@@ -73,7 +72,6 @@ h2 {
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-  padding-left: 10px;
   color: #ffffff;
 }
 
@@ -81,4 +79,41 @@ iframe{
   height: 1080px;
   width: 100%;
   border: none;
+}
+
+/*Design formatting of Teams section*/
+.teamcontainer {
+  padding: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/*Spatial formatting of teams container, brings background down to bottom of page*/
+.teamrow {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Lines up Team pics and bios horizontally on page*/
+.teammember {
+  display: block;
+  padding: 20px;
+  width: 100%;
+  float: left;
+  }
+
+/*Change width of team pics and bios depending on the size of the screen, responsive design*/
+@media(min-width:800px){
+  .teammember{width:30%;}
+}
+
+/*Styling team photos with circle frame*/
+.circle {
+  border-radius: 50%
+}
+
+/* Used for centering all content within sections*/
+.center {
+  align-items: center!important;
 }
