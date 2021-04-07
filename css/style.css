@@ -35,12 +35,12 @@
 }
 /*Adds styling to active link and link that is currently being hovered*/
 .navbar a:hover {
-  background-color: #626269;
+  background-color: #24478a;
   color: #e8eeef;
 
 }
 .navbar .active {
-  background-color: #626269;
+  background-color: #24478a;
 }
 
 /* Content container */
