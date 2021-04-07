@@ -1,7 +1,8 @@
   /*Formatting page, zero margin for body*/
   body {
     margin: 0;
-    background-color:  #000000;;
+    background-color:  #000000;
+    overflow: hidden;
 }
 
 /* Title container */
@@ -76,3 +77,8 @@ p {
   color: #ffffff;
 }
 
+iframe{
+  height: 1080px;
+  width: 100%;
+  border: none;
+}
