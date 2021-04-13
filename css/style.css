@@ -1,8 +1,8 @@
   /*Formatting page, zero margin for body*/
   body {
     margin: 0;
+    height: 100%;
     background-color:  #000000;
-    overflow: hidden;
 }
 
 /* Header */
