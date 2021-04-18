@@ -13,7 +13,7 @@
 
 /*Navigation bar*/
 .navbar {
-  margin:0 auto;
+  margin:0;
   width: 100%;
   text-align: center;
   display: flex;
@@ -35,20 +35,19 @@
 }
 /*Adds styling to active link and link that is currently being hovered*/
 .navbar a:hover {
-  background-color: #24478a;
+  background-color: #3183b9;
   color: #e8eeef;
 
 }
 .navbar .active {
-  background-color: #24478a;
+  background-color: #3183b9;
 }
 
 /* Content container */
 .content {
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 50px;
-  align-items: center;
+  padding-left: 300px;
 }
 
 h1 {
@@ -66,13 +65,14 @@ h2 {
   font-weight: normal;
   padding-top: 15px;
   text-transform: uppercase;
-  color: #316fe4;
+  color: #3183b9;;
 }
 
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   color: #ffffff;
+  padding-right: 300px;
 }
 
 iframe{
@@ -103,7 +103,7 @@ iframe{
   float: left;
   }
 
-/*Change width of team pics and bios depending on the size of the screen, responsive design*/
+/*Change width of divs based on screen size, responsive design*/
 @media(min-width:800px){
   .teammember{width:30%;}
 }
@@ -113,7 +113,16 @@ iframe{
   border-radius: 50%
 }
 
-/* Used for centering all content within sections*/
+/* Used for centering content*/
 .center {
-  align-items: center!important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.floatright {
+  float: right;
+  padding-top: 30px;
+  padding-right: 250px;
 }
