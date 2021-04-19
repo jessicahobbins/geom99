@@ -62,9 +62,9 @@ h1 {
 
 h2 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: normal;
-  padding-top: 30px;
+  padding-top: 40px;
   text-transform: uppercase;
   color: #3183b9;
 }
@@ -124,5 +124,5 @@ iframe {
 .floatright {
   float: right;
   padding-top: 30px;
-  padding-right: 100px;
+  padding-right: 300px;
 }
