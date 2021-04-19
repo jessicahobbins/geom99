@@ -84,6 +84,7 @@ iframe {
 /*Design formatting of Teams section*/
 .teamcontainer {
   padding: 40px;
+  padding-left: 400px;
   text-align: center;
   font-size: 18px;
 }
@@ -100,6 +101,7 @@ iframe {
   display: block;
   padding: 20px;
   width: 100%;
+  padding-left: 50px;
   float: left;
   }
 
