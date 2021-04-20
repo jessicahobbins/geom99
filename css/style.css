@@ -85,8 +85,10 @@ iframe {
 /*Design formatting of Teams section*/
 .teamcontainer {
   padding: 40px;
-  padding-left: 400px;
+  display:flex;
   text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
   font-size: 18px;
 }
 
@@ -99,11 +101,12 @@ iframe {
 
 /*Lines up Team pics and bios horizontally on page*/
 .teammember {
-  display: block;
+  /*display: block;
   padding: 20px;
   width: 100%;
   padding-left: 50px;
-  float: left;
+  float: left; */
+  margin:auto;
   }
 
 /*Change width of divs based on screen size, responsive design*/
