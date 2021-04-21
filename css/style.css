@@ -179,6 +179,7 @@ iframe {
 
 .floatright {
   float: right;
+  padding-left:100px;
   padding-top: 30px;
   padding-right: 300px;
 }
