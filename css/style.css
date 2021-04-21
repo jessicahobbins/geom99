@@ -35,7 +35,7 @@
 }
 
 /*Adds styling to active link and link that is currently being hovered*/
-.navbar a:hover, .dropdown:hover .dropButton {
+.navbar a:hover, .dropdown:hover .dropButton, .dropdown:hover {
   background-color: #3183b9;
   color: #e8eeef;
 }
@@ -51,10 +51,7 @@
   flex: 1;
   letter-spacing: 1px;
 }
-.navbar div:hover {
-  background-color: #3183b9;
-  color: #e8eeef;
-}
+
 .navbar button {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
@@ -67,10 +64,6 @@
   flex: 1;
   letter-spacing: 1px;
 }
-.navbar button:hover{
-  background-color: #3183b9;
-  color: #e8eeef;
-}
 
 .navbar .active {
   background-color: #3183b9;
@@ -79,18 +72,6 @@
 .dropButton {
   flex:1;
 }
-
-
-.dropdown {
-
-  flex:1;
-}
-
-.dropdown .dropButton {
-  overflow:hidden;
-  flex-grow:1;
-}
-
 
 .dropContent {
   display: none;
@@ -108,10 +89,6 @@
   text-decoration: none;
   display: block;
   text-align: left;
-}
-
-.dropContent a:hover {
-  background-color: #3183b9;
 }
 
 .dropdown:hover .dropContent {
