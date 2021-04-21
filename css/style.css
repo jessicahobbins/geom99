@@ -33,6 +33,7 @@
   flex: 1;
   letter-spacing: 1px;
 }
+
 /*Adds styling to active link and link that is currently being hovered*/
 .navbar a:hover {
   background-color: #3183b9;
@@ -47,6 +48,11 @@
 .content {
   padding-left: 15%;
   padding-right: 15%;
+}
+
+/* changes colour of links before and after being clicked */
+a:link {
+  color: #3183b9
 }
 
 h1 {
